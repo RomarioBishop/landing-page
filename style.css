@@ -34,12 +34,16 @@ header{
     align-items: center;
     flex-basis: 8rem;
     font-size:3rem;
+    position:sticky;
+    top: 0;
+    z-index: 1;
 
 }
 
 .logo{
-    color:#F9FAF8;
+    color:#3882F6;
     font-size:2.4rem;
+    font-weight: 700;
 }
 .first-nav{
     color:#E5E7EB;
@@ -77,6 +81,7 @@ main{
     justify-content:center;
     align-items:center;
     gap:4rem;
+    flex-wrap: wrap;
     
 }
 .hero-cta{
@@ -96,6 +101,7 @@ main{
     color:#E5E7EB;
     margin-bottom:1rem;
     opacity: 0.9;
+    line-height: 1.4;
 }
 .hero-img img{
     width: 500px;
@@ -104,7 +110,7 @@ main{
 
 
 
-.hero button{
+button{
     background-color: #3882F6;
     font-size:2rem;
     border-radius:10px;
@@ -122,13 +128,16 @@ main{
     flex-direction: column;
     justify-content:center;
     align-items:center;
-    padding: 2em 9em;
+    padding: 3rem 9rem 5rem 9rem;
     background-color:#F9FAF8;
-    gap:2rem;
+    gap:3rem;
+    color:#1F2937
 }
 .heading-text{
     margin-top:0.5rem;
-    font-size: 1.1rem;
+}
+.heading-text h1{
+    font-size: 3.6rem;
 }
 .image-box{
     margin-bottom: 2rem;
@@ -163,10 +172,88 @@ main{
     object-fit: cover;
 }
 
+/* Quote Section */
+
+.quote-area{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 5rem 20rem 5rem 20rem;
+    background-color:#E5E7EB;
+    gap:1rem;
+    
+}
 
 
+.quote p{
+    font-size: 3.6rem;
+    font-weight: 300;
+    font-style: italic;
+    color:#1F2937;
+   
+}
+
+.said-by p{
+    font-size: 3rem;
+    font-weight: 500;
+    font-style: italic;
+    color:#1F2937
+    
+}
+
+.said-by{
+    margin-left: 60%;
+}
+
+/* Call to action section */
+
+.final-cta{
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    padding: 10rem 20rem ;
+    background-color:#F9FAF8;
+    gap:1rem; 
+    color:#F9FAF8;
+
+}
+
+.cta{
+    flex:1
+}
+
+.cta-bx{
+    display: flex;
+    flex-direction: row;
+    background-color: #3882F6;
+    flex-basis:600rem;
+    border-radius: 15px;
+    padding:4rem 15rem;
+    
+
+}
+
+.cta-button button{
+    border:#F9FAF8 0.2rem solid; 
+    font-weight:200; 
+    color:#F9FAF8;  
+}   
+
+.final-cta h2{
+    font-size:2rem;
+}
+
+.final-cta p{
+    font-size:1.5rem;
+    margin-top: 0.5rem;
+    color:#E5E7EB
+}
 
 footer{
-    background-color: aquamarine;
-    
+    font-size: 1.8rem;
+    background-color:#1F2937;
+    padding: 4rem 20rem 4rem 20rem;
+    text-align: center;
+    color:#F9FAF8
 }
