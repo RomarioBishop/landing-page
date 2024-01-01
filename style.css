@@ -73,7 +73,7 @@ main{
     display: flex;
     flex-direction: row;
     background-color:#1F2937;
-    padding: 15rem 9rem 9rem 9rem;
+    padding: 12rem 9rem 9rem 9rem;
     justify-content:center;
     align-items:center;
     gap:4rem;
@@ -119,13 +119,49 @@ main{
 
 .items{
     display: flex;
-    flex-direction: row;
-    padding: 1em 9em;
-    background-color: ;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding: 2em 9em;
+    background-color:#F9FAF8;
+    gap:2rem;
+}
+.heading-text{
+    margin-top:0.5rem;
+    font-size: 1.1rem;
+}
+.image-box{
+    margin-bottom: 2rem;
+    height: 200px;
+    width:200px;
+    border:5px solid;
+    border-radius: 15px;
+    overflow: hidden;
+}
+.wrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+.wrap p{
+    font-size: 1.5rem;
+}
+.holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:2rem;
+    flex-wrap:wrap;
+}
 
-
+.image-box img{
+    height:200px;
+    width:200px;   
+    object-fit: cover;
+}
 
 
 
